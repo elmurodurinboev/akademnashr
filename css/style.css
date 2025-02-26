@@ -37,6 +37,16 @@
   list-style: none;
 }
 
+.site-logo {
+  transition: opacity 0.5s ease;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+
 .site-header {
   background-color: #fff;
   display: flex;
@@ -62,9 +72,16 @@
   text-transform: uppercase;
   color: #000;
   text-decoration: none;
+  transition: color 0.5s ease, opacity 0.5s ease;
 }
 
+.sitenav-link:hover {
+  color: #FF7500;
+}
 
+.sitenav-link:active {
+  opacity: 0.8;
+}
 
 .main-link {
   background-color: #ff7500;
@@ -73,6 +90,14 @@
   letter-spacing: 0.04em;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+
+.main-link:hover {
+  opacity: 0.8;
+}
+.main-link:active {
+  opacity: 0.6;
 }
 
 .hero-section {
@@ -202,4 +227,13 @@
   line-height: 18px;
   color: #252420;
   text-decoration: none;
+  transition: color 0.5s ease, opacity 0.5s ease;
+}
+
+.footer-link:hover {
+  color: #FF7500;
+}
+
+.footer-link:active {
+  opacity: 0.8;
 }
