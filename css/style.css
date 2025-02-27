@@ -31,6 +31,8 @@
 
 * {
   font-family: "Roboto", sans-serif, serif;
+  /* keyinchalik tushunib olamiz */
+  margin: 0;
 }
 
 .list-none {
@@ -52,6 +54,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 5px solid #FF7500;
+  padding: 16px 0;
 }
 
 .site-header-nav {
@@ -63,6 +67,7 @@
 .site-header-list {
   display: flex;
   gap: 32px;
+  padding: 0;
 }
 
 .sitenav-link {
@@ -91,6 +96,9 @@
   color: #fff;
   text-decoration: none;
   transition: opacity 0.5s ease;
+  padding: 12px 24px;
+  border-radius: 4px;
+  display: inline-block;
 }
 
 .main-link:hover {
@@ -105,6 +113,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 80px 0;
 }
 
 .hero-content {
@@ -112,10 +121,15 @@
   color: #fff;
 }
 
+.hero-section img {
+  border-radius: 8px;
+}
+
 .orange-line {
   background-color: #FF7500;
   width: 80px;
   height: 3px;
+  border: none;
 }
 
 .hero-title {
@@ -133,6 +147,10 @@
   letter-spacing: 0.5px;
 }
 
+.feature-section {
+  padding: 210px 0;
+}
+
 .feature-title {
   color: #000;
   font-weight: 700;
@@ -144,6 +162,7 @@
 .feature-list {
   display: flex;
   justify-content: space-between;
+  padding: 0;
 }
 
 .feature {
@@ -170,6 +189,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 64px 0;
+  border-radius: 12px;
+}
+
+.sale img {
+  border-radius: 12px;
 }
 
 .sale-content {
@@ -198,6 +223,7 @@
 
 .site-footer {
   background-color: #f8f8f8;
+  padding: 56px 0;
 }
 
 .footer-top {
@@ -209,6 +235,7 @@
 .footer-top-list {
   display: flex;
   gap: 16px;
+  padding: 0;
 }
 
 .footer-divider {
@@ -219,6 +246,10 @@
 .footer-bottom {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-bottom-list {
+  padding: 0;
 }
 
 .footer-link {
